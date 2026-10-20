@@ -1,0 +1,22 @@
+{
+  "enabled": {
+    "type": "bool",
+    "default": true,
+    "description": "启用群聊屏蔽。关闭后不拦截任何消息。"
+  },
+  "mute_group_ids": {
+    "type": "list",
+    "default": [],
+    "description": "要屏蔽的群号列表。留空则不拦截任何消息（默认留空，需自己填）。"
+  },
+  "mute_private": {
+    "type": "bool",
+    "default": false,
+    "description": "是否连私聊一起屏蔽。默认 false，只在群里静音。"
+  },
+  "log_interval_sec": {
+    "type": "int",
+    "default": 600,
+    "description": "同一个群最多多久写一条屏蔽日志（秒），避免刷日志。"
+  }
+}

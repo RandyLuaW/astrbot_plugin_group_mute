@@ -1,0 +1,14 @@
+name: astrbot_plugin_group_mute
+display_name: 群聊屏蔽
+desc: "让指定群暂时完全不响应，私聊不受影响。最高优先级拦截，比 iris 与主动回复都早。适合测试期或风控观察期先静音几个群，用 /mute on|off 随时开关，不用重启。"
+short_desc: 指定群静音，私聊照常
+author: Randy Lua
+repo: https://github.com/RandyLuaW/astrbot_plugin_group_mute
+version: 1.0.0
+astrbot_version: ">=4.17.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 群管
+  - 静音
+  - 风控

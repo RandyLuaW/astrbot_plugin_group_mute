@@ -1,6 +1,6 @@
 # Group Mute: silence selected groups entirely
 
-> AstrBot plugin · Highest-priority gate before any message handling
+> AstrBot plugin · Highest-priority gate, before memory and proactive reply
 
 ## The problem
 
